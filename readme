@@ -1,0 +1,37 @@
+INSTRUCTIONS FOR HOW PLAY SNAKE
+
+COMPILATION INSTRUCTIONS:
+    Use the provided makefile to compile the program. Do so by typing "make" in the command line while in the same directory as the makefile.
+    It will create an "objs" directory, if it hasn't already, and put .o files in there, and when it's complete: two executables will be put in 
+    the same directory as the makefile. The binaries will be called "client" and "server"
+
+EXECUTION INSTRUCTIONS:
+    After compilation, you can execute as follows:
+
+    To run the server, type "./server" in the command line while in the same directory as the "server" executable file.
+    To run a client, type "./client" in the command line while in the same directory as the "client" executable file.
+
+    You must start the server in order to use the client.
+
+GAME RULES:
+    Eat as many apples as you can without colliding with anything else, including yourself. 
+    If you do, you have lost. You must restart the client to play again, as per the message that should appear onscreen.
+
+CLIENT CONTROLS:
+    A or Left Arrow - move left
+    D or Right Arrow - move right
+    W or Up Arrow - move up
+    S or Down Arrow - move down
+    Esc - exit game.
+    T - toggle timeline speed between 0.5x, 1x, and 2x speed (starts at 1)
+    M - toggle display modes.
+    P - pause the client (this will not affect other clients)
+
+SERVER CONTROLS:
+    Esc - exit game.
+    T - toggle timeline speed between 0.5x, 1x, and 2x speed (starts at 1)
+    M - toggle display modes.
+    P - pause the server (this will affect all environmental objects (non-players) for all clients)
+    Arrow Keys - adjust view
+        - Lets you move the camera around and see what's going on off-screen!
+

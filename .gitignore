@@ -1,0 +1,10 @@
+main
+*.o
+*.h.gch
+*.hpp.gch
+.vscode
+chronoTest*
+test.cpp
+*.zip
+client
+server

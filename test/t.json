@@ -1,0 +1,17 @@
+{
+    "id":0,
+    "player":
+        {
+            "borderColor":[255,255,255,255],
+            "characterObject":true,
+            "collidable":false,
+            "collisionEnabled":false,
+            "fillColor":[255,255,255,255],
+            "gravityEnabled":false,
+            "isPlayerControllable":true,
+            "outlineThickness":0.0,
+            "position":[115.0,20.0],
+            "size":[15.0,15.0],
+            "speed":0.07999999821186066
+        }
+}
