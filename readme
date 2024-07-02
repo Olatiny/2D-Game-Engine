@@ -5,6 +5,11 @@ COMPILATION INSTRUCTIONS:
     It will create an "objs" directory, if it hasn't already, and put .o files in there, and when it's complete: two executables will be put in 
     the same directory as the makefile. The binaries will be called "client" and "server"
 
+DEPENDENCIES:
+    SFML
+    ZeroMQ
+    Chrome V8
+
 EXECUTION INSTRUCTIONS:
     After compilation, you can execute as follows:
 
